@@ -1,8 +1,6 @@
 <?php
 /**
  * UEditor Widget扩展
- * @author xbzbing<xbzbing@gmail.com>
- * @link www.crazydb.com
  *
  * UEditor版本v1.4.3.1
  * Yii版本2.0+
@@ -10,11 +8,11 @@
  * 使用方法:
  * 1、AR
  *
- * <?=$form->field($model, 'content')->widget(\crazydb\ueditor\UEditor::className())?>
+ * <?=$form->field($model, 'content')->widget(\crazydouble\ueditor\UEditor::className())?>
  *
  * 或者
  *
- * <?=\crazydb\ueditor\UEditor::widget([
+ * <?=\crazydouble\ueditor\UEditor::widget([
  *      'model' => $model,
  *      'attribute' => 'content',
  * ])?>
@@ -22,12 +20,12 @@
  *
  * 2、普通表单
  *
- * <?=\crazydb\ueditor\UEditor::widget([
+ * <?=\crazydouble\ueditor\UEditor::widget([
  *      'name' => $name,
  *      'value' => $value,
  * ])>
  */
-namespace crazydb\ueditor;
+namespace crazydouble\ueditor;
 
 use yii;
 use yii\helpers\Html;
@@ -38,7 +36,7 @@ use yii\helpers\ArrayHelper;
 /**
  * Class UEditor
  * UEditor Widget的主类，用于前端显示编辑器
- * @package crazydb\ueditor
+ * @package crazydouble\ueditor
  */
 class UEditor extends yii\widgets\InputWidget
 {

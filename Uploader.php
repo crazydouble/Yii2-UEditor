@@ -8,7 +8,7 @@
  * Modify By xbzbing@gmail.com
  * 增加Yii相关设置
  */
-namespace crazydb\ueditor;
+namespace crazydouble\ueditor;
 
 use yii;
 
@@ -16,7 +16,7 @@ use yii;
  * Class Uploader
  * UEditor 通用上传类
  * @todo 不再使用UEditor的这个upload类，将使用Yii封装的方法重写
- * @package crazydb\ueditor
+ * @package crazydouble\ueditor
  */
 class Uploader
 {
